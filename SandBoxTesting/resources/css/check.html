@@ -1,0 +1,55 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>apa-libro</title>
+    <style type="text/css">
+        <!--
+        .style1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        body {
+            background-color: #FFFFFF;
+        }
+        .style11 {font-family: "Tempus Sans ITC"; font-size: 16px; font-weight: bold; color: #99CC33; }
+        .style12 {font-family: "Tempus Sans ITC";
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .style5 {font-family: "Cooper Black";
+            color: #FF9933;
+            font-size: 36px;
+        }
+        .style15 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: #FFFFFF;
+        }
+        .style18 {font-family: "Tempus Sans ITC"; font-size: 17px; font-weight: bold; color: #FFFFFF; }
+        .style19 {font-family: "Tempus Sans ITC"; font-weight: bold;}
+        -->
+    </style>
+    <link href="CSS_Texto.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script type="text/javascript">
+    function notEmpty() {
+        const itemsToInspect = ['txf1', 'txf2', 'txf3', 'txf4', 'txf5'];
+        let values = itemsToInspect
+            .map(item => {
+            const current = document.getElementById(item);
+        return (current && current.value) || ''
+    })
+    .filter(item => item !== '');
+
+        return values.length === itemsToInspect.length ?
+            document.write("Cópia y pega summary: <br /> " + values.join(' ')) :
+            document.write("Te faltó llenar algun dato." );
+    }
+
+</script>
+
+
+
+</body>
+</html>

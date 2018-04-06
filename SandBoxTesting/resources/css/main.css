@@ -1,0 +1,135 @@
+body {
+    background: url("../images/epam_red.png") no-repeat;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-size: 15px;
+    background-size: cover;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    align-items: left;
+    border-bottom: solid 2px grey;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+    background-color: #A3C644;
+    opacity: .9;
+}
+
+header img {
+    height: 90px;
+    padding-left: 10px;
+}
+
+img:hover {
+    filter: blur(3px);
+}
+
+main {
+    padding-top: 69px;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    flex-grow: 1;
+    margin-right: 30px;
+}
+
+h2 {
+    padding: 20px 0 0 20px;
+}
+
+h3, p {
+   padding: 5px 0 0 20px;
+}
+
+li {
+    font-size: 15px;
+    max-width: 95%;
+    line-height: 1;
+}
+
+.role {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    color: #FFFFFF;
+}
+
+table {
+    width: 650px;
+    border-style: double;
+}
+
+.row1 {
+    background-color: #39c2d7;
+    <!-- opacity: .90; -->
+}
+
+.col1 {
+    width: 250px;
+}
+
+.row2 {
+    background-color: #A3C644;
+    <!-- opacity: .90; -->
+}
+
+.col2 {
+    width: 400px;
+}
+
+div {
+    align-content: center;
+}
+
+.role{
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+div {
+    position: center;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 13px;
+    padding-right: 20px;
+    margin:10px;
+    padding-top: 30px;
+}
+
+footer a {
+    color: #39c2d7;
+    font-size: 13px;
+}
+
+footer a:hover {
+    color:#A3C644;
+    text-transform: capitalize;
+    font-weight: bold;
+    float: top;
+}
